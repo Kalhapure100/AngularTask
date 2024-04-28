@@ -1,27 +1,8 @@
-# Demoapp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+In the angular machine test i have created three component home,registeration page and profile page.
+When a user clicks on the "Register" button on the home page, it should trigger an action to open the registration form.
+The registration form should include fields for uploading a photo, selecting age using a UI slider, typing interests with the option to remove tags, and entering other necessary information (like first name, address, etc.) with validation.
+Upon successful submission of the registration form, the entered data should be sent to the UserService to save it in the db.json file.
+After successful registration, the user should be redirected to the profile screen.
+The profile screen should display the user's data retrieved from the UserService.
+The user should have the ability to edit their profile by clicking on an "Edit Profile" button. This action should populate the profile screen with editable fields containing the user's existing data.
+The user should be able to change their photo by clicking an "Edit Photo" button. This action should allow them to upload a new photo, which should also be saved in the db.json file via the UserService.
