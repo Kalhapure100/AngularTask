@@ -1,0 +1,103 @@
+header {
+  padding: 20px; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #020202; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+}
+
+nav ul li a:hover {
+  background-color: #ccd9ff; 
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  margin-top: 50px;
+  margin-left: 20%; 
+  margin-right: 30%;
+}
+.user-photo {
+  
+  padding-right: 50px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.button-container {
+  margin-top: 10px; 
+}
+
+.profile-description {
+  flex: 1; 
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.edit-photo-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; 
+}
+
+.edit-profile-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.image {
+  max-width: 310px;
+  max-height: 325px;
+}
+.gradient2 {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.email {
+  color: blue; 
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.agree-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+h2 {
+  font-size: 30px;
+  color: black;
+}

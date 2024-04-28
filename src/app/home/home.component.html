@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Homepage</title>
+  </head>
+  <body class="background-image">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#job-client">Job Client</a></li>
+          <li><a href="#employer">Employer</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="search-container">
+      <p
+        style="
+          color: #131212;
+          font-family: poppins;
+          font-weight: bold;
+          font-size: 2em;
+        "
+      >
+        I'm looking for...
+      </p>
+
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search job description..."
+        class="shadow"
+      />
+      <button id="search-button" class="shadow">
+        <i class="fas fa-search"></i>Search
+      </button>
+    </div>
+
+    <div class="options-container">
+      <input type="checkbox" id="full-time" />
+      <label for="full-time">Full Time</label>
+      <input type="checkbox" id="part-time" />
+      <label for="part-time">Part Time</label>
+
+      <select id="location" class="location">
+        <option value="" disabled selected>Select your location</option>
+        <option value="New York">New York</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Chicago">Chicago</option>
+        <option value="Houston">Houston</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <button id="register-button" class="shadow" (click)="Register()">
+      Register
+    </button>
+  </body>
+</html>
