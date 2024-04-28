@@ -6,3 +6,4 @@ After successful registration, the user should be redirected to the profile scre
 The profile screen should display the user's data retrieved from the UserService.
 The user should have the ability to edit their profile by clicking on an "Edit Profile" button. This action should populate the profile screen with editable fields containing the user's existing data.
 The user should be able to change their photo by clicking an "Edit Photo" button. This action should allow them to upload a new photo, which should also be saved in the db.json file via the UserService.
+
